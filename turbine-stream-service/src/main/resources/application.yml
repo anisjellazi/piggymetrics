@@ -1,0 +1,12 @@
+server:
+  port: 8080  # You can change this to your desired port
+
+logging:
+  level:
+    org.springframework: INFO  # Adjust the logging level
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb  # Update with your actual database URL
+    username: "" 
+    password: "" 
