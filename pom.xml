@@ -62,6 +62,10 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <!-- Specify your main class here -->
+                    <mainClass>com.piggymetrics.PiggymetricsApplication</mainClass> <!-- Replace with your actual main class -->
+                </configuration>
             </plugin>
 
             <!-- Maven Surefire Plugin for running tests with JUnit 5 -->
